@@ -1,6 +1,10 @@
-﻿using Point2D = Namespaces.Graphics2D.Point;
+﻿//type alias
+using Point2D = Namespaces.Graphics2D.Point;
+//namespace alias
 using point3D= Namespaces.Graphics3D;
 using System;
+
+
 
 namespace Namespaces.Main
 {
@@ -19,6 +23,8 @@ namespace Namespaces.Main
             p3D.Y = 200;
             p3D.Z = 300;
 
+            global::Point p = new global::Point();
+            p.Label = "Test";
         }
     }
 }
